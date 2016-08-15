@@ -1,0 +1,71 @@
+﻿Build started 8/15/2016 9:38:43 AM.
+     1>Project "C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\Base\Base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\/Common/Source /IC:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\/glew/include /IC:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\/glfw/include /IC:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\/irrKlang/include /ZI /nologo /W3 /WX- /Od /Oy- /D _VARIADIC_MAX=10 /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Application.cpp Source\Button.cpp Source\Camera.cpp Source\Controls.cpp Source\DepthFBO.cpp Source\GameObject.cpp Source\LoadHmap.cpp Source\LoadOBJ.cpp Source\LoadTGA.cpp Source\main.cpp Source\Mesh.cpp Source\MeshBuilder.cpp Source\Particle.cpp Source\SceneBase.cpp Source\SceneText.cpp Source\shader.cpp Source\SpriteAnimation.cpp Source\TileMap.cpp Source\Utility.cpp
+         Utility.cpp
+         TileMap.cpp
+         SpriteAnimation.cpp
+         shader.cpp
+         SceneText.cpp
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\scenetext.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\scenetext.cpp(103): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\scenetext.cpp(121): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\scenetext.cpp(310): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\scenetext.cpp(319): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\scenetext.cpp(395): warning C4018: '<' : signed/unsigned mismatch
+         SceneBase.cpp
+         Particle.cpp
+         MeshBuilder.cpp
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\meshbuilder.cpp(602): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\meshbuilder.cpp(604): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\meshbuilder.cpp(675): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\meshbuilder.cpp(677): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\meshbuilder.cpp(696): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\meshbuilder.cpp(715): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\meshbuilder.cpp(736): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\meshbuilder.cpp(738): warning C4018: '<' : signed/unsigned mismatch
+         Mesh.cpp
+         main.cpp
+         LoadTGA.cpp
+         LoadOBJ.cpp
+         LoadHmap.cpp
+         GameObject.cpp
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\gameobject.cpp(34): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\gameobject.cpp(83): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         DepthFBO.cpp
+         Controls.cpp
+         Camera.cpp
+         Button.cpp
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\button.cpp(24): warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+         Application.cpp
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\application.cpp(44): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>c:\users\509n1\desktop\sp3_team05.git\sp3_base_team05\base\source\application.cpp(45): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\Debug\Base.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\Debug /LIBPATH:"C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\/glfw/lib-msvc100" /LIBPATH:C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\/glew/lib /LIBPATH:C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\/irrKlang/lib Common.lib winmm.lib opengl32.lib glu32.lib glew32.lib glfw3.lib irrKlang.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\Debug\Base.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\Debug\Base.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\Button.obj
+         Debug\Camera.obj
+         Debug\Controls.obj
+         Debug\DepthFBO.obj
+         Debug\GameObject.obj
+         Debug\LoadHmap.obj
+         Debug\LoadOBJ.obj
+         Debug\LoadTGA.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\MeshBuilder.obj
+         Debug\Particle.obj
+         Debug\SceneBase.obj
+         Debug\SceneText.obj
+         Debug\shader.obj
+         Debug\SpriteAnimation.obj
+         Debug\TileMap.obj
+         Debug\Utility.obj
+     1>Application.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Base.vcxproj -> C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\Debug\Base.exe
+     1>Done Building Project "C:\Users\509n1\Desktop\SP3_Team05.git\SP3_Base_Team05\Base\Base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.19
